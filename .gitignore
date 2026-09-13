@@ -1,0 +1,30 @@
+# Raw and generated data
+data/raw/*
+data/staged/*
+data/normalized/*
+data/graph_ready/nodes/*
+data/graph_ready/relationships/*
+reports/data_quality/*
+
+# Keep directory placeholders
+!**/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
+
