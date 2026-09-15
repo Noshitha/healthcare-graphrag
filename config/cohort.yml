@@ -1,0 +1,27 @@
+cohort:
+  id: ischemic_heart_disease_v1
+  name: Ischemic heart disease cohort
+  version: 1
+
+  inclusion_rule:
+    dataset: conditions
+    code_system: http://snomed.info/sct
+    code: "414545008"
+    description: Ischemic heart disease (disorder)
+
+  expected_patient_count: 13
+
+  patient_ids:
+    - 0f3d04a2-f42e-1429-acef-0becd0a0fcea
+    - 1426480f-ccc7-2393-40bd-f92ccf2b74b2
+    - 1d63466e-0cfd-eb12-77aa-d153393355e5
+    - 23da8e71-dfb9-9773-1bc1-7b5e31d085b5
+    - 355a4d50-2628-aa65-c336-deacf4d606fb
+    - 3c0e60c4-176e-2c4c-3b85-b46be390cf5e
+    - 5693c080-f485-91e7-54b9-ad9a8c12af62
+    - 65cbad6a-eb9d-420e-9bab-b4f9c6aab7db
+    - 7af6b271-f16d-21e1-882a-7bff71005a7b
+    - 8ece28c6-f931-b0e0-5c0e-72b8d8d3c86a
+    - a45aa142-d1e9-d944-f2c7-05015c90762d
+    - bca1691f-8839-1d66-ed01-471134d55738
+    - f870c432-0887-125e-f778-cf5110d3de1d
